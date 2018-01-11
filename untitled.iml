@@ -11,10 +11,12 @@
       <library>
         <CLASSES>
           <root url="file://$USER_HOME$/Desktop/reports_java/lb2/lib" />
+          <root url="file:///tmp" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$USER_HOME$/Desktop/reports_java/lb2/lib" recursive="false" />
+        <jarDirectory url="file:///tmp" recursive="false" />
       </library>
     </orderEntry>
   </component>

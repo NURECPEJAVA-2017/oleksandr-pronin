@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Vector;
 
 
-public class HsqldbUserDao
+public class HsqldbUserDao implements DaoInterface
 {
     public void createUser(Connection conn, User user) throws SQLException {
         PreparedStatement statement = conn.prepareStatement("INSERT INTO user (firstName, lastName, dateOfBirth) VALUES (?, ?, ?)");
